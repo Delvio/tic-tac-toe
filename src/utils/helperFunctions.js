@@ -30,6 +30,4 @@ function calculateWinner(squares) {
   return null;
 }
 
-const functions = { calculateWinner, calculateNextValue, calculateStatus };
-
-export default functions;
+export { calculateWinner, calculateNextValue, calculateStatus };
